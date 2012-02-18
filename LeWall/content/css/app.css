@@ -1,0 +1,8 @@
+﻿body 
+{
+    padding-top: 45px;
+}
+#message
+{ width: 940px }
+#sendbtn
+{ text-align: right; }
