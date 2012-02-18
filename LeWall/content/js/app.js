@@ -34,7 +34,7 @@
                 dataType: 'json',
                 success: function () {
                     ajax.get_latest();
-                    var text = $('#message').val('');
+                    var text = $('#message').val('Submitted');
                 }
             });
         }
