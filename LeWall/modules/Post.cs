@@ -21,8 +21,8 @@ namespace LeWall.Modules
                     var db = Database.Open();
                     List<dynamic> posts = db.Posts
                                             .FindAll(db.Posts.ID > last_id)
-                                            .OrderBy(db.Posts.DateCreated)
                                             .Take(10)
+                                            .OrderByDateCreated()
                                             .ToList();
                     return Response.AsJson(posts);
                 }
@@ -31,8 +31,8 @@ namespace LeWall.Modules
                     var db = Database.Open();
                     List<dynamic> posts = db.Posts
                                             .All()
-                                            .OrderBy(db.Posts.DateCreated)
                                             .Take(10)
+                                            .OrderByDateCreated()
                                             .ToList();
                     return Response.AsJson(posts);
                 }

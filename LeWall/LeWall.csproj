@@ -20,6 +20,10 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -77,7 +81,9 @@
     <Content Include="content\css\bootstrap.min.css" />
     <Content Include="content\img\glyphicons-halflings-white.png" />
     <Content Include="content\img\glyphicons-halflings.png" />
-    <Content Include="content\js\app.js" />
+    <Content Include="content\js\app2.js">
+      <DependentUpon>app2.coffee</DependentUpon>
+    </Content>
     <Content Include="content\js\bootstrap.js" />
     <Content Include="content\js\bootstrap.min.js" />
     <Content Include="views\index.html" />
@@ -95,9 +101,11 @@
     <Compile Include="modules\Index.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\js\app2.coffee" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
