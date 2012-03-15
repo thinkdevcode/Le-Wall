@@ -1,0 +1,10 @@
+C:\Users\ealfonso\documents\visual studio 2010\Projects\LeWall\LeWall\bin\LeWall.dll
+C:\Users\ealfonso\documents\visual studio 2010\Projects\LeWall\LeWall\bin\LeWall.pdb
+C:\Users\ealfonso\documents\visual studio 2010\Projects\LeWall\LeWall\bin\Nancy.dll
+C:\Users\ealfonso\documents\visual studio 2010\Projects\LeWall\LeWall\bin\Nancy.Hosting.Aspnet.dll
+C:\Users\ealfonso\documents\visual studio 2010\Projects\LeWall\LeWall\bin\Simple.Data.Ado.dll
+C:\Users\ealfonso\documents\visual studio 2010\Projects\LeWall\LeWall\bin\Simple.Data.dll
+C:\Users\ealfonso\documents\visual studio 2010\Projects\LeWall\LeWall\bin\Simple.Data.SqlServer.dll
+C:\Users\ealfonso\documents\visual studio 2010\Projects\LeWall\LeWall\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ealfonso\documents\visual studio 2010\Projects\LeWall\LeWall\obj\Debug\LeWall.dll
+C:\Users\ealfonso\documents\visual studio 2010\Projects\LeWall\LeWall\obj\Debug\LeWall.pdb
